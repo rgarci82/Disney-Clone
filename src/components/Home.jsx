@@ -2,11 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import background from "../images/home-background.png";
 import ImgSlider from "./ImgSlider";
+import Viewers from "./Viewers";
+import Recommends from "./Recommends";
+import NewDisney from "./NewDisney";
+import Originals from "./Originals";
 
 function Home() {
   return (
     <Container>
       <ImgSlider />
+      <Viewers />
+      <Recommends />
+      <NewDisney />
+      <Originals />
+      <Trending />
     </Container>
   );
 }
