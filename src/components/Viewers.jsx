@@ -102,6 +102,7 @@ const Wrap = styled.div`
 
     video {
       opacity: 1;
+      transform: scale(1.01);
     }
   }
 `;
