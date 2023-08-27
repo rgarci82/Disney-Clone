@@ -7,32 +7,44 @@ function Viewers() {
       <Wrap>
         <img src="/images/viewers-disney.png"></img>
         <video autoPlay={true} loop={true} playsInline={true} muted={true}>
-          <source src="/videos/1564674844-disney.mp4" type="video/mp4" />
+          <source
+            src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564674844-disney.mp4"
+            type="video/mp4"
+          />
         </video>
       </Wrap>
       <Wrap>
         <img src="/images/viewers-pixar.png"></img>
         <video autoPlay={true} loop={true} playsInline={true} muted={true}>
-          <source src="/videos/1564676714-pixar.mp4" type="video/mp4" />
+          <source
+            src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676714-pixar.mp4"
+            type="video/mp4"
+          />
         </video>
       </Wrap>
       <Wrap>
         <img src="/images/viewers-marvel.png"></img>
         <video autoPlay={true} loop={true} playsInline={true} muted={true}>
-          <source src="/videos/1564676115-marvel.mp4" type="video/mp4" />
+          <source
+            src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676115-marvel.mp4"
+            type="video/mp4"
+          />
         </video>
       </Wrap>
       <Wrap>
         <img src="/images/viewers-starwars.png"></img>
         <video autoPlay={true} loop={true} playsInline={true} muted={true}>
-          <source src="/videos/1608229455-star-wars.mp4" type="video/mp4" />
+          <source
+            src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2020/04/03/1585929840-star-wars.mp4"
+            type="video/mp4"
+          />
         </video>
       </Wrap>
       <Wrap>
         <img src="/images/viewers-national.png"></img>
         <video autoPlay={true} loop={true} playsInline={true} muted={true}>
           <source
-            src="/videos/1564676296-national-geographic.mp4"
+            src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676296-national-geographic.mp4"
             type="video/mp4"
           />
         </video>
