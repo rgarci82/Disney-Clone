@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import whitePlay from "../images/play-icon-white.png";
-import blackPlay from "../images/play-icon-black.png";
-import group from "../images/group-icon.png";
 import db from "../firebase";
 import { useParams } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
@@ -21,9 +18,11 @@ function Detail() {
     }
   }
 
-  useEffect(() => {
-    getDescription();
-  }, id);
+  getDescription();
+
+  // useEffect(() => {
+  //   getDescription();
+  // }, id);
 
   return (
     <Container>
@@ -36,11 +35,11 @@ function Detail() {
       <ContentMeta>
         <Controls>
           <Player>
-            <img src={blackPlay} alt="" />
+            <img src="/images/play-icon-black.png" alt="" />
             <span>Play</span>
           </Player>
           <Trailer>
-            <img src={whitePlay} alt="" />
+            <img src="/images/play-icon-white.png" alt="" />
             <span>Trailer</span>
           </Trailer>
           <AddList>
@@ -49,7 +48,7 @@ function Detail() {
           </AddList>
           <GroupWatch>
             <div>
-              <img src={group} alt="" />
+              <img src="/images/group-icon.png" alt="" />
             </div>
           </GroupWatch>
         </Controls>

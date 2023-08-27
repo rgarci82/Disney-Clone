@@ -1,12 +1,5 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-import logo from "../images/logo.svg";
-import homeIcon from "../images/home-icon.svg";
-import searchIcon from "../images/search-icon.svg";
-import watchlistIcon from "../images/watchlist-icon.svg";
-import originalsIcon from "../images/original-icon.svg";
-import movieIcon from "../images/movie-icon.svg";
-import seriesIcon from "../images/series-icon.svg";
 import { auth, provider } from "../firebase";
 import { onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
 import { useDispatch, useSelector } from "react-redux";
@@ -67,7 +60,7 @@ function Header() {
   return (
     <Nav>
       <Logo>
-        <img src={logo} />
+        <img src="/images/logo.svg" />
       </Logo>
       {!username ? (
         <Login onClick={handleAuth}>Login</Login>
@@ -75,27 +68,27 @@ function Header() {
         <>
           <NavMenu>
             <a href="home">
-              <img src={homeIcon} alt="home"></img>
+              <img src="/images/home-icon.svg" alt="home"></img>
               <span>HOME</span>
             </a>
             <a href="home">
-              <img src={searchIcon} alt="home"></img>
+              <img src="/images/search-icon.svg" alt="home"></img>
               <span>SEARCH</span>
             </a>
             <a href="home">
-              <img src={watchlistIcon} alt="home"></img>
+              <img src="/images/watchlist-icon.svg" alt="home"></img>
               <span>WATCHLIST</span>
             </a>
             <a href="home">
-              <img src={originalsIcon} alt="home"></img>
+              <img src="/images/original-icon.svg" alt="home"></img>
               <span>ORIGINALS</span>
             </a>
             <a href="home">
-              <img src={movieIcon} alt="home"></img>
+              <img src="/images/movie-icon.svg" alt="home"></img>
               <span>MOVIES</span>
             </a>
             <a href="home">
-              <img src={seriesIcon} alt="home"></img>
+              <img src="/images/series-icon.svg" alt="home"></img>
               <span>SERIES</span>
             </a>
           </NavMenu>
