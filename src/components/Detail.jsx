@@ -5,7 +5,7 @@ import blackPlay from "../images/play-icon-black.png";
 import group from "../images/group-icon.png";
 import db from "../firebase";
 import { useParams } from "react-router-dom";
-import { collection, doc, getDoc, getDocs } from "firebase/firestore";
+import { doc, getDoc } from "firebase/firestore";
 
 function Detail() {
   const { id } = useParams();
